@@ -1,11 +1,10 @@
-package transactionproj.com.wealth.repository;
+package com.wealth.repository;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-
-import transactionproj.com.wealth.model.Transaction;
+import com.wealth.model.Transaction;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -59,7 +58,7 @@ public class JsonRepository {
             System.out.println("LOG: Data successfully saved to " + filePath.toAbsolutePath());
             
         } catch (IOException e) {
-            
+        
             throw new RuntimeException("CRITICAL: Failed to save transaction data.", e);
         }
     }
