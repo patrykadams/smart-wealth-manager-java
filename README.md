@@ -1,8 +1,7 @@
 # Smart Wealth Manager (Java 21 Edition)
 
-A Clean Architecture financial portfolio application designed to demonstrate high-level competency in Modern Java (21+).
+A Clean Architecture financial portfolio application designed to demonstrate competency in Modern Java (21+).
 
-This project serves as a technical bridge for developers transitioning from C#/.NET to the Java Ecosystem, highlighting idiomatic differences in concurrency, data modeling, and stream processing.
 
 ## Architecture Overview
 
